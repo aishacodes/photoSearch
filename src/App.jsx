@@ -8,12 +8,14 @@ import './App.css';
 
 
 function App() {
+  const [photos, setPhotos] = useState([]);
+
   
   
   return (
     <div className="App">
       <Header />
-      <Search />
+      <Search handleSearch={} />
       <MainContent />
     </div>
   );
