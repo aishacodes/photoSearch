@@ -1,7 +1,9 @@
-import React from 'react';
-import Header from './Components/Header'
-import Search from './Components/Search'
-import MainContent from './Components/MainContent'
+import React, { useState, useEffect } from "react";
+import { searchPics } from "./factory";
+
+import "./styles.css";
+import SearchBox from "./components/SearchBox";
+import Photos from './components/Photos'
 
 
 import './App.css';
